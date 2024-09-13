@@ -8,7 +8,7 @@ documentation: https://github.com/singerdmx/flutter-quill/tree/master/quill_nati
 
 environment:
   sdk: ^3.5.1
-  flutter: '>=3.3.0'
+  flutter: '>=3.19.6'
 
 dependencies:
   flutter:
