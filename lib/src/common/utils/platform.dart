@@ -22,11 +22,7 @@ bool get isIos => defaultTargetPlatform == TargetPlatform.iOS;
 bool get isIosApp => !kIsWeb && isIos;
 
 Future<bool> isIOSSimulator() async {
-  if (kIsWeb || defaultTargetPlatform != TargetPlatform.iOS) {
-    return false;
-  }
-
-  return await QuillNativeBridge.isIOSSimulator();
+  return false;
 }
 
 // Mobile
